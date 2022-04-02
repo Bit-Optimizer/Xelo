@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Container, Text, Link } from '@nextui-org/react';
+import ProductCard from '../components/ProductCard';
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
               Xelo!
             </Link>
           </Text>
+          <ProductCard />
         </Container>
       </div>
     </div>
